@@ -1,5 +1,3 @@
-import { createNewBoard } from "./game-play";
-
 export const generateRandomBoard = (size) => {
   let mainArray = [];
 
