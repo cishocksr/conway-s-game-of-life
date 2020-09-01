@@ -55,28 +55,17 @@ body {
 }
 
 /* about component */
-.aboutPageContainer {
+.rules {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.aboutTextContainer {
+.text-container {
   width: 90%;
   text-align: left;
   background: #303030;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 10px 0;
-}
-
-.exampleContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  background: white;
   padding: 10px;
   border-radius: 10px;
   margin: 10px 0;

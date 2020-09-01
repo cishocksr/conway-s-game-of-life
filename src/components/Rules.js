@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "./Header";
 
-const About = () => {
+const Rules = () => {
   return (
-    <div className="about">
+    <div className="rules">
+      <Header />
       <div className="text-container">
         <p>
           Cambridge mathematician John Conway invended the Game of Life in the
@@ -43,3 +45,5 @@ const About = () => {
     </div>
   );
 };
+
+export default Rules;
