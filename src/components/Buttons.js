@@ -57,7 +57,7 @@ const Buttons = ({
           }
         }}
         className="gameButton"
-        style={{ background: "#03DAC6" }}
+        style={{ background: "rgb(133, 126, 122, 0.6)" }}
       >
         Start
       </Button>
@@ -65,7 +65,7 @@ const Buttons = ({
       <Button
         onClick={pauseGame}
         className="gameButton"
-        style={{ background: "#FF8C00" }}
+        style={{ background: "rgb(133, 126, 122, 0.6)" }}
       >
         Pause
       </Button>
@@ -73,7 +73,7 @@ const Buttons = ({
       <Button
         onClick={clearBoard}
         className="gameButton"
-        style={{ background: "#B00020" }}
+        style={{ background: "rgb(133, 126, 122, 0.6)" }}
       >
         Clear
       </Button>
@@ -86,7 +86,7 @@ const Buttons = ({
           setBoard(generateRandomBoard(gridSize));
         }}
         className="gameButton"
-        style={{ background: "#2069E0" }}
+        style={{ background: "rgb(133, 126, 122, 0.6)" }}
       >
         Random
       </Button>
@@ -96,7 +96,7 @@ const Buttons = ({
           nextGeneration(board);
         }}
         className="gameButton"
-        style={{ background: "#BB86FC" }}
+        style={{ background: "rgb(133, 126, 122, 0.6)" }}
       >
         Next Generation
       </Button>

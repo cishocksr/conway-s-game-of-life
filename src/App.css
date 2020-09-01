@@ -13,8 +13,8 @@ body {
 /* header component */
 
 .header {
-  background: #303030;
-  color: white;
+  background: rgb(133, 126, 122, 0.6);
+  color: #224189;
   align-items: center;
   display: flex;
   height: 70px;
@@ -32,12 +32,16 @@ body {
 
 .header a {
   text-decoration: none;
-  color: white;
-  font-size: 22px;
+  color: #224189;
+  font-size: 1.7rem;
   margin-right: 2%;
 }
 
 /* button component */
+button {
+  display: flex;
+  justify-content: center;
+}
 
 .gameButton {
   color: white;
@@ -98,6 +102,7 @@ label {
 }
 
 .inputField {
+  background-color: rgb(133, 126, 122, 0.6);
   border-radius: 4px;
   width: 200px;
   padding: 10px 5px;
@@ -105,7 +110,7 @@ label {
   align-items: flex-start;
   font-size: 16px;
   outline: none;
-  border: 1px solid gray;
+  border: 1px solid black;
 }
 
 @media (max-width: 850px) {
@@ -116,6 +121,7 @@ label {
 }
 
 .speed {
+  background-color: rgb(133, 126, 122, 0.6);
   border-radius: 4px;
   width: 200px;
   padding: 10px 5px;
@@ -123,7 +129,7 @@ label {
   align-items: flex-start;
   font-size: 16px;
   outline: none;
-  border: 1px solid gray;
+  border: 1px solid black;
 }
 
 @media (max-width: 850px) {
